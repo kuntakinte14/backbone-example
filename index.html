@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Backbone Exercise</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/reset.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    
+	<script src="js/lib/jquery-1.12.3.min.js"></script>
+	<script src="js/lib/underscore-min.js"></script>
+	<script src="js/lib/backbone-min.js"></script>
+	<script src="js/lib/backbone-validation.js"></script>
+	<script src="js/lib/backbone.localStorage-min.js"></script>
+	<script src="js/template-loader.js"></script>
+	<script src="js/main.js"></script> 
+<script type="text/html" class="template" id="tmpl_regform">
+<h2>Register</h2>
+<div>  
+  <div>
+    <label>First Name</label>
+	<input type="text" required="required" name="firstname" id="fname" value="" autofocus/>
+  </div>
+  <div>
+    <label>Last Name</label>
+	<input type="text" name="lastname" required="required" id="lname" value="" autofocus/>
+  </div>
+  <button type="button" class="btn btn-primary" id="nextpage">Next</button>
+</div> 	
+
+<div>
+  <div>
+    <label>AddressOne</label>
+    <input type="text" required="required" name="address1" id="addOne" autofocus/>
+  </div>
+  <div>
+    <label>AddressTwo</label>
+    <input type="text" name="address2" id="addTwo" autofocus/>
+  </div>
+  <div>
+    <label>City</label>
+    <input type="text" name="city" id="city" autofocus/>
+  </div>
+  <div>
+    <label>State</label>
+    <input type="text" name="state" id="state" autofocus/>
+  </div>
+  <div>
+    <label>ZipCode</label>
+    <input type="number" name="zipcode" id="zipcode" autofocus/>
+  </div>
+  <div>
+    <button type="button" id="complete">Finish</button>
+  </div>
+</div>
+</script>   
+</head>
+<body>
+<div class="container" id="container">
+</div>
+</body>
+</html>

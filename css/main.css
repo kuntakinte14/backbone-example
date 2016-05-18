@@ -1,0 +1,28 @@
+body {
+	background-color: lightblue;
+}
+
+h2 {
+    color: navy;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    /*border: 1px solid black;*/
+}
+
+div#container {
+    margin: 20px;
+}
+
+label {  
+	width:85px;  
+	display: inline-block;
+}
+
+input {
+	margin-bottom: 5px;
+}
+
+input:required {
+  border-color: red !important;
+}
